@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cost",
+  "type": "object",
+  "properties": {
+    "gp": {
+      "type": "number",
+      "description": "Gold",
+      "default": 0
+    },
+    "sp": {
+      "type": "number",
+      "description": "Silver",
+      "default": 0
+    },
+    "cp": {
+      "type": "number",
+      "description": "Copper",
+      "default": 0
+    }
+  }
+}

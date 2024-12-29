@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "./item.json"
+    }
+  ],
+  "title": "Weapon",
+  "type": "object",
+  "required": [
+    "range",
+    "attributes",
+    "damage"
+  ],
+  "properties": {
+    "range": {
+      "type": "array",
+      "description": "The range of the weapon.",
+      "items": {
+        "$ref": "./distance.json"
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "description": "A set of attributes of the weapon.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "TwoHanded",
+          "Finesse",
+          "Loading",
+          "Versatile",
+          "Thrown"
+        ]
+      }
+    },
+    "damage": {
+      "$ref": "https://ubermanu.github.io/tabletopmancer/schema/dice.json",
+      "description": "The damage formula of the weapon."
+    },
+    "damage_alt": {
+      "$ref": "https://ubermanu.github.io/tabletopmancer/schema/dice.json",
+      "description": "The alternative damage formula of the weapon."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/weapon.json",
+  "name": "Dagger",
+  "cost": {
+    "gp": 1
+  },
+  "slots": 1,
+  "attributes": [
+    "Finesse",
+    "Thrown"
+  ],
+  "range": [
+    "Close",
+    "Far"
+  ],
+  "damage": "1d4"
+}

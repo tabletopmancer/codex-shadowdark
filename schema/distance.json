@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Distance",
+  "type": "string",
+  "description": "A distance can be close (C), near (N) or far (F).",
+  "enum": [
+    "Close",
+    "Near",
+    "Far"
+  ]
+}

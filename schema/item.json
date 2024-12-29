@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Item",
+  "type": "object",
+  "required": [
+    "name",
+    "cost"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "A descriptive name for the item."
+    },
+    "description": {
+      "type": "string",
+      "description": "A long description of the item."
+    },
+    "cost": {
+      "$ref": "./coins.json",
+      "description": "The cost of the item."
+    },
+    "slots": {
+      "type": "number",
+      "description": "The number of inventory slots needed.",
+      "default": 1
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

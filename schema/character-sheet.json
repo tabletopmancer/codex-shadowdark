@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character Sheet",
+  "description": "A player character sheet",
+  "type": "object",
+  "$defs": {
+    "attribute": {
+      "type": "number"
+    }
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the character."
+    },
+    "hp": {
+      "type": "number",
+      "description": "Health points of the character.",
+      "minimum": 0
+    },
+    "ac": {
+      "type": "number",
+      "description": "Armor Class of the character.",
+      "minimum": 0
+    },
+    "ancestry": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "level": {
+      "type": "number",
+      "minimum": 0
+    },
+    "xp": {
+      "type": "number",
+      "minimum": 0,
+      "default": 0
+    },
+    "title": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "deity": {
+      "type": "string"
+    },
+    "str": {
+      "$ref": "#/$defs/attribute"
+    },
+    "dex": {
+      "$ref": "#/$defs/attribute"
+    },
+    "con": {
+      "$ref": "#/$defs/attribute"
+    },
+    "int": {
+      "$ref": "#/$defs/attribute"
+    },
+    "wis": {
+      "$ref": "#/$defs/attribute"
+    },
+    "cha": {
+      "$ref": "#/$defs/attribute"
+    },
+    "coins": {
+      "$ref": "./coins.json"
+    },
+    "inventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "amount",
+          "item"
+        ],
+        "properties": {
+          "amount": {
+            "type": "number",
+            "minimum": 0,
+            "default": 1
+          },
+          "item": {
+            "type": "string",
+            "description": "The resource identifier of the item."
+          }
+        }
+      }
+    }
+  }
+}

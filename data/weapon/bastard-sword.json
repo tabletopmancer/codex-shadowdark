@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/weapon.json",
+  "name": "Bastard Sword",
+  "cost": {
+    "gp": 10
+  },
+  "slots": 2,
+  "attributes": [
+    "Versatile"
+  ],
+  "range": [
+    "Close"
+  ],
+  "damage": "1d8",
+  "damage_alt": "1d10"
+}
