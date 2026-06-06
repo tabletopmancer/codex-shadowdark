@@ -1,0 +1,27 @@
+name: Validate JSON Schemas
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate JSON against schemas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate weapons
+        run: npx -y ajv-cli validate -s schema/weapon.json -r schema/item.json -r schema/coins.json -r schema/distance.json -r schema/dice.json -d "data/weapon/*.json"
+
+      - name: Validate armor
+        run: npx -y ajv-cli validate -s schema/armor.json -r schema/item.json -r schema/coins.json -d "data/armor/*.json"
+
+      - name: Validate spells
+        run: npx -y ajv-cli validate -s schema/spell.json -r schema/distance.json -d "data/spell/*.json"
+
+      - name: Validate classes
+        run: npx -y ajv-cli validate -s schema/class.json -r schema/dice.json -d "data/class/*.json"
+
+      - name: Validate ancestries
+        run: npx -y ajv-cli validate -s schema/ancestry.json -d "data/ancestry/*.json"

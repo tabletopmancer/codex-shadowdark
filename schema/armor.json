@@ -7,8 +7,9 @@
   ],
   "title": "Armor",
   "type": "object",
-  "required": [
-    "ac"
+  "oneOf": [
+    { "required": ["ac"] },
+    { "required": ["ac_bonus"] }
   ],
   "properties": {
     "ac": {

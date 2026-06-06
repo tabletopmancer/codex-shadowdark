@@ -12,7 +12,7 @@
       "description": "The class name."
     },
     "hp_die": {
-      "$ref": "https://ubermanu.github.io/tabletopmancer/schema/dice.json",
+      "$ref": "./dice.json",
       "description": "The hit die used for HP."
     },
     "weapons": {

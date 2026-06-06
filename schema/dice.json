@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dice.json",
+  "title": "Dice",
+  "description": "A dice formula.",
+  "type": "string",
+  "pattern": "[\\d]{1,}d[\\d]{1,}"
+}
