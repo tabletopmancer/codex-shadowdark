@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Mage Armor",
+  "tier": 1,
+  "class": ["wizard"],
+  "duration": "10 rounds",
+  "range": "Near",
+  "description": "An invisible layer of magical force protects your vitals. Your armor class becomes 14 (18 on a critical spellcasting check) for the spell's duration.",
+  "source": "data/source/quickstart-set.json"
+}

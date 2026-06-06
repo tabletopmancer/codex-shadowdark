@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Sleep",
+  "tier": 1,
+  "class": ["wizard"],
+  "duration": "Instant",
+  "range": "Near",
+  "description": "You weave a lulling spell that fills a near-sized cube extending from you. Living creatures in the area of effect fall into a deep sleep if they are level 2 or less. Vigorous shaking or being injured wakes them.",
+  "source": "data/source/quickstart-set.json"
+}

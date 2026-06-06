@@ -1,18 +1,16 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Warhammer",
   "cost": {
-    "gp": 1
+    "gp": 10
   },
-  "slots": 1,
+  "slots": 2,
   "attributes": [
-    "Finesse",
-    "Thrown"
+    "TwoHanded"
   ],
   "range": [
-    "Close",
-    "Far"
+    "Close"
   ],
-  "damage": "1d4",
+  "damage": "1d10",
   "source": "data/source/quickstart-set.json"
 }

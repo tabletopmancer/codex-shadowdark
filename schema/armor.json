@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "./item.json"
+    }
+  ],
+  "title": "Armor",
+  "type": "object",
+  "required": [
+    "ac"
+  ],
+  "properties": {
+    "ac": {
+      "type": "string",
+      "description": "The armor class formula (e.g. '11+DEX', '13+DEX', '15')."
+    },
+    "ac_bonus": {
+      "type": "number",
+      "description": "A flat AC bonus (for shields)."
+    },
+    "stealth_penalty": {
+      "type": "boolean",
+      "description": "Whether the armor imposes a stealth penalty.",
+      "default": false
+    },
+    "swim_penalty": {
+      "type": "boolean",
+      "description": "Whether the armor prevents swimming.",
+      "default": false
+    }
+  }
+}

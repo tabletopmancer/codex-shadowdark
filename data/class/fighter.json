@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/class.json",
+  "name": "Fighter",
+  "hp_die": "1d8",
+  "weapons": ["All"],
+  "armor": ["All", "Shields"],
+  "languages": ["Common"],
+  "spells": false,
+  "description": "Fighters are masters of the blade, bow, and shield. They can use all weapons and armor. Once per day, a fighter may reroll one melee or ranged attack. They take the better result.",
+  "source": "data/source/quickstart-set.json"
+}

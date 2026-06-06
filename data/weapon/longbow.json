@@ -1,18 +1,16 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Longbow",
   "cost": {
-    "gp": 1
+    "gp": 8
   },
-  "slots": 1,
+  "slots": 2,
   "attributes": [
-    "Finesse",
-    "Thrown"
+    "TwoHanded"
   ],
   "range": [
-    "Close",
     "Far"
   ],
-  "damage": "1d4",
+  "damage": "1d8",
   "source": "data/source/quickstart-set.json"
 }

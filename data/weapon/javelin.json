@@ -1,12 +1,11 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Javelin",
   "cost": {
-    "gp": 1
+    "sp": 5
   },
   "slots": 1,
   "attributes": [
-    "Finesse",
     "Thrown"
   ],
   "range": [

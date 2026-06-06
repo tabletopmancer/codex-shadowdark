@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Holy Weapon",
+  "tier": 1,
+  "class": ["priest"],
+  "duration": "5 rounds",
+  "range": "Close",
+  "description": "One weapon you touch is imbued with a sacred blessing. The weapon becomes magical and has +1 to attack and damage rolls for the duration.",
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Dwarf",
+  "ability": "Stout. Roll your HD with advantage when recovering HP.",
+  "languages": ["Common", "Dwarvish"],
+  "source": "data/source/quickstart-set.json"
+}

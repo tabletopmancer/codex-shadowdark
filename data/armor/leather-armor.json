@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/armor.json",
+  "name": "Leather Armor",
+  "cost": {
+    "gp": 10
+  },
+  "slots": 1,
+  "ac": "11+DEX",
+  "source": "data/source/quickstart-set.json"
+}

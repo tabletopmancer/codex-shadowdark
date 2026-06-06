@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Feather Fall",
+  "tier": 1,
+  "class": ["wizard"],
+  "duration": "Instant",
+  "range": "Near",
+  "description": "You may cast this spell when you or a nearby creature starts to fall. The target's rate of descent slows so they land safely on their feet.",
+  "source": "data/source/quickstart-set.json"
+}

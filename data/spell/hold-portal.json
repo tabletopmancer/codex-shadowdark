@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Hold Portal",
+  "tier": 1,
+  "class": ["wizard"],
+  "duration": "10 rounds",
+  "range": "Near",
+  "description": "You magically hold a portal closed for the duration. A creature must make a successful STR check vs. your spellcasting check to open the portal. The knock spell ends this spell.",
+  "source": "data/source/quickstart-set.json"
+}
