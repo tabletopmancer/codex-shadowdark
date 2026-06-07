@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Rope",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "description": "60 feet of hemp rope.",
+  "source": "data/source/quickstart-set.json"
+}

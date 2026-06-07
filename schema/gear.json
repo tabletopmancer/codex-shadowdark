@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "gear.json",
+  "allOf": [
+    { "$ref": "item.json" }
+  ],
+  "title": "Gear",
+  "type": "object",
+  "properties": {
+    "quantity": {
+      "type": "number",
+      "description": "Number of units per slot (e.g. 20 arrows per slot).",
+      "minimum": 1,
+      "default": 1
+    }
+  }
+}

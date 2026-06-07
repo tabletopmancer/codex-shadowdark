@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/monster-sheet.json",
+  "name": "Goblin",
+  "lv": 1,
+  "ac": 11,
+  "hp": 5,
+  "atk": [
+    { "name": "club", "bonus": 0, "damage": "1d4", "range": "Close" },
+    { "name": "shortbow", "bonus": 1, "damage": "1d4", "range": "Far" }
+  ],
+  "mv": "Near",
+  "str": 0,
+  "dex": 1,
+  "con": 1,
+  "int": -1,
+  "wis": -1,
+  "cha": -2,
+  "al": "C",
+  "special": [
+    "Keen Senses. Goblins can't be surprised."
+  ],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Flask or Bottle",
+  "cost": { "gp": 3 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

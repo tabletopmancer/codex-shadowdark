@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/monster-sheet.json",
+  "name": "Skeleton",
+  "lv": 1,
+  "ac": 12,
+  "hp": 4,
+  "atk": [
+    { "name": "shortsword", "bonus": 0, "damage": "1d6", "range": "Close" }
+  ],
+  "mv": "Near",
+  "str": 0,
+  "dex": 0,
+  "con": 0,
+  "int": -2,
+  "wis": 0,
+  "cha": -1,
+  "al": "C",
+  "special": [
+    "Undead Resilience. Immune to sleep, charm, and poison effects."
+  ],
+  "source": "data/source/quickstart-set.json"
+}

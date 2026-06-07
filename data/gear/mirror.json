@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Mirror",
+  "cost": { "gp": 10 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

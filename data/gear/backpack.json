@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Backpack",
+  "cost": { "gp": 2 },
+  "slots": 1,
+  "description": "The first backpack you carry takes no gear slot.",
+  "source": "data/source/quickstart-set.json"
+}

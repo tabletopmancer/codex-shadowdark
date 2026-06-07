@@ -1,3 +1,72 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "monster-sheet.json",
+  "title": "Monster",
+  "type": "object",
+  "required": [
+    "name",
+    "lv",
+    "ac",
+    "hp",
+    "atk",
+    "mv",
+    "al"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The monster's name."
+    },
+    "lv": {
+      "type": "number",
+      "description": "Monster level.",
+      "minimum": 0
+    },
+    "ac": {
+      "type": "number",
+      "description": "Armor class."
+    },
+    "hp": {
+      "type": "number",
+      "description": "Hit points.",
+      "minimum": 1
+    },
+    "atk": {
+      "type": "array",
+      "description": "Attack actions.",
+      "items": {
+        "type": "object",
+        "required": ["name", "bonus", "damage"],
+        "properties": {
+          "name": { "type": "string" },
+          "bonus": { "type": "number" },
+          "damage": { "$ref": "dice.json" },
+          "range": { "$ref": "distance.json" }
+        }
+      }
+    },
+    "mv": {
+      "$ref": "distance.json",
+      "description": "Movement speed category."
+    },
+    "str": { "type": "number" },
+    "dex": { "type": "number" },
+    "con": { "type": "number" },
+    "int": { "type": "number" },
+    "wis": { "type": "number" },
+    "cha": { "type": "number" },
+    "al": {
+      "type": "string",
+      "description": "Alignment.",
+      "enum": ["L", "N", "C"]
+    },
+    "special": {
+      "type": "array",
+      "description": "Special abilities.",
+      "items": { "type": "string" }
+    },
+    "source": {
+      "type": "string"
+    }
+  }
 }

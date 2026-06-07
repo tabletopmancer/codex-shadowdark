@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Rations",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "quantity": 3,
+  "description": "One day's worth of food per ration.",
+  "source": "data/source/quickstart-set.json"
+}

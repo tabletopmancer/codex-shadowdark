@@ -25,3 +25,9 @@ jobs:
 
       - name: Validate ancestries
         run: npx -y ajv-cli validate -s schema/ancestry.json -d "data/ancestry/*.json"
+
+      - name: Validate gear
+        run: npx -y ajv-cli validate -s schema/gear.json -r schema/item.json -r schema/coins.json -d "data/gear/*.json"
+
+      - name: Validate monsters
+        run: npx -y ajv-cli validate -s schema/monster-sheet.json -r schema/dice.json -r schema/distance.json -d "data/monster/*.json"

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Lantern",
+  "cost": { "gp": 5 },
+  "slots": 1,
+  "description": "Sheds bright light in a near area. Burns oil flasks as fuel.",
+  "source": "data/source/quickstart-set.json"
+}

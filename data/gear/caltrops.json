@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Caltrops",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "description": "One bag. Scattered on the ground, creatures moving through them must succeed on a DEX check or stop moving.",
+  "source": "data/source/quickstart-set.json"
+}

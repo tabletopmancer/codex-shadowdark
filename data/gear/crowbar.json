@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Crowbar",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

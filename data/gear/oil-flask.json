@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Oil Flask",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "description": "Fuel for a lantern. Can be thrown and lit as an improvised fire attack.",
+  "source": "data/source/quickstart-set.json"
+}

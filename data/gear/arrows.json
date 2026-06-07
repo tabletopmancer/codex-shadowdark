@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Arrows",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "quantity": 20,
+  "source": "data/source/quickstart-set.json"
+}

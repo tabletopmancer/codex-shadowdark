@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/gear.json",
+  "name": "Pole",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "description": "10-foot wooden pole.",
+  "source": "data/source/quickstart-set.json"
+}
