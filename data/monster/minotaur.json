@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Minotaur",
+  "description": "Ferocious bull-men with hooves and curved horns. They live in mazelike tunnels.",
+  "ac": 14,
+  "hp": 34,
+  "attacks": [
+    { "name": "greataxe", "count": 2, "bonus": 6, "damage": "1d10" },
+    { "name": "horns", "count": 1, "bonus": 6, "damage": "1d12" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 4, "dex": 1, "con": 3, "int": 1, "wis": 2, "cha": 1 },
+  "alignment": "C",
+  "level": 7,
+  "special_abilities": [
+    { "name": "Charge", "description": "In place of attacks, move up to double near in a straight line and make 1 horn attack. If hit, deals x2 damage." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

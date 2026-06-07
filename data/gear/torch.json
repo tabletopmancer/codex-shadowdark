@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Torch",
+  "description": "Sheds light to a near distance. Burns for one hour of real time.",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

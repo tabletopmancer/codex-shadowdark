@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Ochre Jelly",
+  "description": "An orange puddle of quivering slime.",
+  "ac": 9,
+  "hp": 20,
+  "attacks": [
+    { "name": "tentacle", "count": 2, "bonus": 3, "damage": "1d6" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 2, "dex": -1, "con": 2, "int": -4, "wis": -3, "cha": -4 },
+  "alignment": "N",
+  "level": 4,
+  "special_abilities": [
+    { "name": "Split", "description": "If cut or chopped, splits into two smaller oozes (divide remaining HP between both). Can split up to four times." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

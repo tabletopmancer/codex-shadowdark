@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Boar",
+  "description": "Ornery wild pig with bristly, russet hair and yellowed tusks.",
+  "ac": 12,
+  "hp": 14,
+  "attacks": [
+    { "name": "tusk", "count": 2, "bonus": 3, "damage": "1d6" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": 0, "con": 1, "int": -2, "wis": 1, "cha": -2 },
+  "alignment": "N",
+  "level": 3,
+  "special_abilities": [
+    { "name": "Gore", "description": "Deals an extra die of damage if it hits the same target with both tusks." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Beastman",
+  "description": "A cave hominid with scraggly fur and a stone-tipped spear.",
+  "ac": 12,
+  "hp": 5,
+  "attacks": [
+    { "name": "spear", "count": 1, "bonus": 2, "damage": "1d6" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 2, "dex": 1, "con": 1, "int": -2, "wis": 1, "cha": -1 },
+  "alignment": "C",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Brutal", "description": "+1 damage with melee weapons (included in damage)." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

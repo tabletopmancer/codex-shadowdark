@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Unicorn",
+  "description": "A silvery horse with a flowing mane and a single spiral horn.",
+  "ac": 12,
+  "hp": 20,
+  "attacks": [
+    { "name": "hooves", "count": 1, "bonus": 3, "damage": "1d6" }
+  ],
+  "movement": "Double Near",
+  "stats": { "str": 3, "dex": 2, "con": 2, "int": 1, "wis": 2, "cha": 3 },
+  "alignment": "L",
+  "level": 4,
+  "special_abilities": [
+    { "name": "Healing Horn", "description": "A touch heals 2d6 HP or ends one curse or disease." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

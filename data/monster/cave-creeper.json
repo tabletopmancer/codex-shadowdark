@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Cave Creeper",
+  "description": "Chittering centipedes the size of horses with grasping tentacles.",
+  "ac": 12,
+  "hp": 18,
+  "attacks": [
+    { "name": "bite", "count": 1, "bonus": 3, "damage": "1d6" },
+    { "name": "tentacles", "count": 1, "bonus": 3, "damage": "1d8", "special": "toxin" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 2, "dex": 2, "con": 0, "int": -3, "wis": 1, "cha": -3 },
+  "alignment": "N",
+  "level": 4,
+  "special_abilities": [
+    { "name": "Toxin", "description": "DC 12 CON or paralyzed 1d4 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

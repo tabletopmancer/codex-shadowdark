@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Kobold",
+  "description": "Puny, scaled coyote-lizards that dwell underground.",
+  "ac": 13,
+  "hp": 1,
+  "attacks": [
+    { "name": "spear", "count": 1, "bonus": 0, "damage": "1d6" }
+  ],
+  "movement": "Near",
+  "stats": { "str": -2, "dex": 2, "con": 0, "int": -1, "wis": 0, "cha": -1 },
+  "alignment": "C",
+  "level": 0,
+  "special_abilities": [
+    { "name": "Dodge", "description": "1/day, an attack that would hit misses instead." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

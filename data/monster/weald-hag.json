@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Weald Hag",
+  "description": "Eyes dark as moonless nights, skin made of rotting wood, hair of tangled roots and vines.",
+  "ac": 14,
+  "hp": 28,
+  "attacks": [
+    { "name": "claw", "count": 2, "bonus": 4, "damage": "1d8" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": 2, "con": 1, "int": 1, "wis": 2, "cha": 3 },
+  "alignment": "C",
+  "level": 6,
+  "special_abilities": [
+    { "name": "Drink Pain", "description": "Near range. DC 12 CHA to deal 2d4 damage to a creature; regain that many HP." },
+    { "name": "Shapechange", "description": "Instantly change to look like any other humanoid." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Crocodile",
+  "description": "Fat, scaly reptiles with stumpy legs and long, thrashing tails.",
+  "ac": 14,
+  "hp": 20,
+  "attacks": [
+    { "name": "bite", "count": 2, "bonus": 3, "damage": "1d8" }
+  ],
+  "movement": "Near (swim)",
+  "stats": { "str": 3, "dex": 1, "con": 2, "int": -2, "wis": 1, "cha": -2 },
+  "alignment": "N",
+  "level": 4,
+  "source": "data/source/quickstart-set.json"
+}

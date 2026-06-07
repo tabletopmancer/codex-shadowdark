@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Hold Person",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "Focus",
+  "range": "Near",
+  "description": "You magically paralyze one humanoid creature of LV 4 or less you can see within range.",
+  "source": "data/source/quickstart-set.json"
+}

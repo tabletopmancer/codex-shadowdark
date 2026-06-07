@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Monster",
+  "type": "object",
+  "required": ["name", "ac", "hp", "attacks", "movement", "stats", "alignment", "level"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The monster's name."
+    },
+    "description": {
+      "type": "string",
+      "description": "Flavor text describing the monster."
+    },
+    "ac": {
+      "type": "number",
+      "description": "Armor class."
+    },
+    "hp": {
+      "type": "number",
+      "description": "Average hit points."
+    },
+    "attacks": {
+      "type": "array",
+      "description": "List of attacks the monster can make.",
+      "items": {
+        "type": "object",
+        "required": ["name", "bonus", "damage"],
+        "properties": {
+          "name": { "type": "string" },
+          "count": { "type": "number", "default": 1 },
+          "range": { "$ref": "./distance.json" },
+          "bonus": { "type": "number" },
+          "damage": { "type": "string" },
+          "special": { "type": "string" }
+        }
+      }
+    },
+    "movement": {
+      "type": "string",
+      "description": "Movement speed and mode (e.g. 'Near', 'Near (fly)', 'Double Near')."
+    },
+    "stats": {
+      "type": "object",
+      "required": ["str", "dex", "con", "int", "wis", "cha"],
+      "properties": {
+        "str": { "type": "number" },
+        "dex": { "type": "number" },
+        "con": { "type": "number" },
+        "int": { "type": "number" },
+        "wis": { "type": "number" },
+        "cha": { "type": "number" }
+      }
+    },
+    "alignment": {
+      "type": "string",
+      "enum": ["L", "N", "C"],
+      "description": "Lawful, Neutral, or Chaotic."
+    },
+    "level": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Monster level."
+    },
+    "special_abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "source": { "type": "string" }
+  }
+}

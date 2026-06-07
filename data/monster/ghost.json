@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Ghost",
+  "description": "A wavering spirit with a face contorted in rage or sadness.",
+  "ac": 13,
+  "hp": 27,
+  "attacks": [
+    { "name": "death touch", "count": 2, "bonus": 5, "damage": "1d8", "special": "life drain" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -2, "dex": 3, "con": 0, "int": 0, "wis": 0, "cha": 4 },
+  "alignment": "C",
+  "level": 6,
+  "special_abilities": [
+    { "name": "Greater Undead", "description": "Immune to morale checks. Only damaged by silver or magical sources." },
+    { "name": "Incorporeal", "description": "In place of attacks, become corporeal or incorporeal." },
+    { "name": "Life Drain", "description": "1d4 CON damage. Death if reduced to 0 CON." },
+    { "name": "Possess", "description": "Must be corporeal. One target, close range. Contested CHA check. If ghost wins, it inhabits target's body and controls it for 2d4 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

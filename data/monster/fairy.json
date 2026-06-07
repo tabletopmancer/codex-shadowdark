@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Fairy",
+  "description": "Miniature fey folk with fluttering moth or butterfly wings.",
+  "ac": 13,
+  "hp": 4,
+  "attacks": [
+    { "name": "needle", "count": 1, "bonus": 3, "damage": "1", "special": "poison" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -2, "dex": 3, "con": 0, "int": 1, "wis": 0, "cha": 1 },
+  "alignment": "N",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Poison", "description": "DC 12 CON or fall into deep sleep for 1d4 hours." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

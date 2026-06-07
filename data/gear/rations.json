@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Rations (3)",
+  "description": "One day of food and water supply for one person.",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

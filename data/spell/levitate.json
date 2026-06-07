@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Levitate",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "Focus",
+  "range": "Close",
+  "description": "You can float a near distance vertically per round on your turn. You can also push against solid objects to move horizontally.",
+  "source": "data/source/quickstart-set.json"
+}

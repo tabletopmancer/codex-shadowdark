@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Rat, Giant",
+  "description": "Cunning rats as large as cats. Mangy fur and wormlike tails.",
+  "ac": 11,
+  "hp": 5,
+  "attacks": [
+    { "name": "bite", "count": 1, "bonus": 1, "damage": "1d4", "special": "disease" }
+  ],
+  "movement": "Near",
+  "stats": { "str": -2, "dex": 1, "con": 1, "int": -2, "wis": 1, "cha": -2 },
+  "alignment": "N",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Disease", "description": "DC 12 CON or 1d4 CON damage (can't heal while ill). Repeat check once per day; ends on success. Die at 0 CON." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

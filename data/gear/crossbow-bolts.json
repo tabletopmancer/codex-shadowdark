@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Crossbow Bolts (20)",
+  "description": "Ammunition for crossbows.",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

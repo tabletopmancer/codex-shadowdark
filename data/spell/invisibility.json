@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Invisibility",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "10 rounds",
+  "range": "Close",
+  "description": "A creature you touch becomes invisible for the spell's duration. The spell ends if the target attacks or casts a spell.",
+  "source": "data/source/quickstart-set.json"
+}

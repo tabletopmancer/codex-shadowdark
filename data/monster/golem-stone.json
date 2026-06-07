@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Golem, Stone",
+  "description": "A wide-limbed, lumbering statue that shakes the ground.",
+  "ac": 18,
+  "hp": 40,
+  "attacks": [
+    { "name": "slam", "count": 3, "bonus": 6, "damage": "1d10" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 4, "dex": -1, "con": 4, "int": -2, "wis": 0, "cha": -2 },
+  "alignment": "N",
+  "level": 8,
+  "special_abilities": [
+    { "name": "Golem", "description": "Immune to damage from fire, cold, electricity, or non-magical sources." },
+    { "name": "Slow", "description": "Far range, one target. DC 15 CON or speed halved 1d4 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

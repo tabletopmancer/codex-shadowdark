@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Zone of Truth",
+  "tier": 2,
+  "class": ["priest"],
+  "duration": "Focus",
+  "range": "Near",
+  "description": "You compel a creature you can see to speak truth. It can't utter a deliberate lie while within range.",
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Wasp, Giant",
+  "description": "Man-sized wasps with glossy, yellow-striped abdomens.",
+  "ac": 13,
+  "hp": 9,
+  "attacks": [
+    { "name": "sting", "count": 1, "bonus": 3, "damage": "1d6", "special": "venom" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": 1, "dex": 3, "con": 0, "int": -3, "wis": 0, "cha": -3 },
+  "alignment": "N",
+  "level": 2,
+  "special_abilities": [
+    { "name": "Venom", "description": "DC 9 CON or go to 0 HP." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

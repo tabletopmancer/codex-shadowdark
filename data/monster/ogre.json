@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Ogre",
+  "description": "A massive, dim-witted brute with tusks and a heavy frame. Often lords over goblins or orcs.",
+  "ac": 9,
+  "hp": 30,
+  "attacks": [
+    { "name": "greatclub", "count": 2, "bonus": 6, "damage": "2d6" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 4, "dex": -1, "con": 3, "int": -2, "wis": -2, "cha": -2 },
+  "alignment": "C",
+  "level": 6,
+  "source": "data/source/quickstart-set.json"
+}

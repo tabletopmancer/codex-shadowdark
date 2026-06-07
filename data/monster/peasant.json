@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Peasant",
+  "description": "A commoner in worn clothes.",
+  "ac": 10,
+  "hp": 4,
+  "attacks": [
+    { "name": "club", "count": 1, "bonus": 0, "damage": "1d4" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 0, "dex": 0, "con": 0, "int": 0, "wis": 0, "cha": 0 },
+  "alignment": "L",
+  "level": 1,
+  "source": "data/source/quickstart-set.json"
+}

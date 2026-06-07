@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Bat, Giant",
+  "description": "Leathery, eagle-sized mammal with a taste for flesh.",
+  "ac": 12,
+  "hp": 9,
+  "attacks": [
+    { "name": "bite", "count": 1, "bonus": 2, "damage": "1d6" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -1, "dex": 2, "con": 0, "int": -3, "wis": 1, "cha": -3 },
+  "alignment": "N",
+  "level": 2,
+  "source": "data/source/quickstart-set.json"
+}

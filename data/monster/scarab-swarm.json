@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Scarab, Swarm",
+  "description": "A chittering cloud of iridescent, oval-shaped beetles.",
+  "ac": 13,
+  "hp": 14,
+  "attacks": [
+    { "name": "bite", "count": 2, "bonus": 3, "damage": "1d6" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -1, "dex": 3, "con": 1, "int": -3, "wis": 0, "cha": -3 },
+  "alignment": "N",
+  "level": 3,
+  "source": "data/source/quickstart-set.json"
+}

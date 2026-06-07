@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Stingbat",
+  "description": "Darting, orange insect-bat with four wings and a needlelike beak.",
+  "ac": 12,
+  "hp": 4,
+  "attacks": [
+    { "name": "beak", "count": 1, "bonus": 2, "damage": "1d4", "special": "blood drain" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -2, "dex": 2, "con": 0, "int": -2, "wis": 0, "cha": -2 },
+  "alignment": "N",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Blood Drain", "description": "Attach to bitten target; auto-hit the next round. DC 9 STR on turn to remove." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

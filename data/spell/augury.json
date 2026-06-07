@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Augury",
+  "tier": 2,
+  "class": ["priest"],
+  "duration": "Instant",
+  "range": "Close",
+  "description": "You interpret the meaning of supernatural portents and omens. Ask the GM one question about a specific course of action. The GM says whether the action will lead to \"weal\" or \"woe.\"",
+  "source": "data/source/quickstart-set.json"
+}

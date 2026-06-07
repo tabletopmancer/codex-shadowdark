@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Grick",
+  "description": "A huge worm with four suckered tentacles and a snapping beak.",
+  "ac": 14,
+  "hp": 19,
+  "attacks": [
+    { "name": "beak", "count": 1, "bonus": 3, "damage": "1d8" },
+    { "name": "tentacle", "count": 1, "bonus": 3, "damage": "1d6", "special": "grab" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 3, "dex": 2, "con": 1, "int": -3, "wis": 1, "cha": -3 },
+  "alignment": "N",
+  "level": 4,
+  "special_abilities": [
+    { "name": "Camouflage", "description": "Hard to see in cave terrain or rocks." },
+    { "name": "Grab", "description": "Target is immobilized. DC 15 Strength check on turn to break free." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

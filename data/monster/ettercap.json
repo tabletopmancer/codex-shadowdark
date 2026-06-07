@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Ettercap",
+  "description": "Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.",
+  "ac": 12,
+  "hp": 14,
+  "attacks": [
+    { "name": "bite", "count": 2, "bonus": 2, "damage": "1d6" },
+    { "name": "poison web", "count": 1, "range": "Near", "bonus": 2, "damage": "1d4", "special": "stuck" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 0, "dex": 2, "con": 1, "int": 0, "wis": 0, "cha": -1 },
+  "alignment": "C",
+  "level": 3,
+  "special_abilities": [
+    { "name": "Poison Web", "description": "One target stuck in place and takes 1d4 damage per round. DC 12 DEX on turn to escape." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Dryad",
+  "description": "A coy, emerald-skinned fey covered in leaves. It bonds with and protects a tree.",
+  "ac": 13,
+  "hp": 19,
+  "attacks": [
+    { "name": "staff", "count": 1, "bonus": -1, "damage": "1d4" }
+  ],
+  "movement": "Near",
+  "stats": { "str": -1, "dex": 2, "con": 1, "int": 1, "wis": 3, "cha": 4 },
+  "alignment": "N",
+  "level": 4,
+  "special_abilities": [
+    { "name": "Charm", "description": "Near range, one creature, DC 14 CHA or friendship for 1d8 days." },
+    { "name": "Meld", "description": "Step inside bonded tree." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

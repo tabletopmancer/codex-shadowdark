@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Dragon, Swamp",
+  "description": "This black, wingless beast slithers through dank swamps.",
+  "ac": 16,
+  "hp": 58,
+  "attacks": [
+    { "name": "rend", "count": 3, "bonus": 8, "damage": "2d10" }
+  ],
+  "movement": "Double Near (burrow, swim)",
+  "stats": { "str": 5, "dex": 3, "con": 4, "int": 4, "wis": 3, "cha": 3 },
+  "alignment": "C",
+  "level": 12,
+  "special_abilities": [
+    { "name": "Smog Breath", "description": "Fills a near-sized cube extending from the dragon. DC 15 CON or 2d10 damage and blinded for 1 round." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

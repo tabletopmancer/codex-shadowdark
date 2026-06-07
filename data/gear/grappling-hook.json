@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Grappling Hook",
+  "description": "A rope anchor with three curved tines.",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Flask or Bottle",
+  "description": "Glass containers that hold one draught of liquid.",
+  "cost": { "sp": 3 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

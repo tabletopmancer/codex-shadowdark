@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Mirror",
+  "description": "A small, polished mirror.",
+  "cost": { "gp": 10 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

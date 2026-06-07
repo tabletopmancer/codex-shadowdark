@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Arrows (20)",
+  "description": "Ammunition for shortbows or longbows.",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Fixed Object",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "5 rounds",
+  "range": "Close",
+  "description": "An object you touch that weighs no more than 5 pounds becomes fixed in its current location. It can support up to 5,000 pounds of weight for the duration of the spell.",
+  "source": "data/source/quickstart-set.json"
+}
