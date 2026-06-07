@@ -1,18 +1,17 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Spear",
   "cost": {
-    "gp": 1
+    "sp": 5
   },
   "slots": 1,
   "attributes": [
-    "Finesse",
     "Thrown"
   ],
   "range": [
     "Close",
-    "Far"
+    "Near"
   ],
-  "damage": "1d4",
+  "damage": "1d6",
   "source": "data/source/quickstart-set.json"
 }

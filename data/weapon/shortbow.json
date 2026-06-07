@@ -1,16 +1,14 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Shortbow",
   "cost": {
-    "gp": 1
+    "gp": 6
   },
   "slots": 1,
   "attributes": [
-    "Finesse",
-    "Thrown"
+    "TwoHanded"
   ],
   "range": [
-    "Close",
     "Far"
   ],
   "damage": "1d4",

@@ -1,17 +1,14 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Bastard Sword",
+  "name": "Longsword",
   "cost": {
-    "gp": 10
+    "gp": 9
   },
   "slots": 2,
-  "attributes": [
-    "Versatile"
-  ],
+  "attributes": [],
   "range": [
     "Close"
   ],
   "damage": "1d8",
-  "damage_alt": "1d10",
   "source": "data/source/quickstart-set.json"
 }

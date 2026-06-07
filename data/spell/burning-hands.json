@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Burning Hands",
+  "tier": 1,
+  "class": ["wizard"],
+  "duration": "Instant",
+  "range": "Close",
+  "description": "You spread your fingers with thumbs touching, unleashing a circle of flame that fills a close area around where you stand. Creatures within the area of effect take 1d6 damage. Unattended flammable objects ignite.",
+  "source": "data/source/quickstart-set.json"
+}

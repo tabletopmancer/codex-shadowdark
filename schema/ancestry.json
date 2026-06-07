@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ancestry",
+  "type": "object",
+  "required": [
+    "name",
+    "ability"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The ancestry name."
+    },
+    "ability": {
+      "type": "string",
+      "description": "The ancestry's special ability description."
+    },
+    "languages": {
+      "type": "array",
+      "description": "Languages spoken by this ancestry.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

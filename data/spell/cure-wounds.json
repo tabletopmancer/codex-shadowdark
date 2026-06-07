@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Cure Wounds",
+  "tier": 1,
+  "class": ["priest"],
+  "duration": "Instant",
+  "range": "Close",
+  "description": "Your touch restores ebbing life. The target regains 1d6 HP.",
+  "source": "data/source/quickstart-set.json"
+}

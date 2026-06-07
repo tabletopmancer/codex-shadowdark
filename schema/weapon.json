@@ -35,11 +35,11 @@
       }
     },
     "damage": {
-      "$ref": "https://ubermanu.github.io/tabletopmancer/schema/dice.json",
+      "$ref": "./dice.json",
       "description": "The damage formula of the weapon."
     },
     "damage_alt": {
-      "$ref": "https://ubermanu.github.io/tabletopmancer/schema/dice.json",
+      "$ref": "./dice.json",
       "description": "The alternative damage formula of the weapon."
     }
   }

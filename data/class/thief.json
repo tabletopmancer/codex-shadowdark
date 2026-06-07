@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/class.json",
+  "name": "Thief",
+  "hp_die": "1d4",
+  "weapons": ["Club", "Crossbow", "Dagger", "Shortbow", "Shortsword"],
+  "armor": ["Leather"],
+  "languages": ["Common", "Thieves' Cant"],
+  "spells": false,
+  "description": "Thieves are nimble rogues who rely on cunning over brawn. They can backstab enemies for extra damage and have several roguish abilities. When a thief hits an enemy who is unaware or flanked, they deal an extra 1d6 damage (increases at higher levels).",
+  "source": "data/source/quickstart-set.json"
+}

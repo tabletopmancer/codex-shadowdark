@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/armor.json",
+  "name": "Chainmail",
+  "cost": {
+    "gp": 60
+  },
+  "slots": 2,
+  "ac": "13+DEX",
+  "stealth_penalty": true,
+  "swim_penalty": true,
+  "source": "data/source/quickstart-set.json"
+}

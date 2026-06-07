@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/class.json",
+  "name": "Wizard",
+  "hp_die": "1d4",
+  "weapons": ["Dagger", "Staff"],
+  "armor": [],
+  "languages": ["Common"],
+  "spells": true,
+  "description": "Wizards are arcane scholars who bend reality through force of intellect. They can cast spells and must make a spellcasting check to do so. On a failure, the spell does not take effect and is not lost. Wizards use INT as their spellcasting ability. They can learn spells from scrolls and spellbooks.",
+  "source": "data/source/quickstart-set.json"
+}

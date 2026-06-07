@@ -1,17 +1,14 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Bastard Sword",
+  "name": "Mace",
   "cost": {
-    "gp": 10
+    "gp": 5
   },
   "slots": 2,
-  "attributes": [
-    "Versatile"
-  ],
+  "attributes": [],
   "range": [
     "Close"
   ],
-  "damage": "1d8",
-  "damage_alt": "1d10",
+  "damage": "1d6",
   "source": "data/source/quickstart-set.json"
 }

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/armor.json",
+  "name": "Plate Mail",
+  "cost": {
+    "gp": 130
+  },
+  "slots": 3,
+  "ac": "15",
+  "stealth_penalty": true,
+  "swim_penalty": true,
+  "source": "data/source/quickstart-set.json"
+}

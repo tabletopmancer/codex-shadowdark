@@ -1,18 +1,14 @@
 {
   "$schema": "../../schema/weapon.json",
-  "name": "Dagger",
+  "name": "Shortsword",
   "cost": {
-    "gp": 1
+    "gp": 7
   },
   "slots": 1,
-  "attributes": [
-    "Finesse",
-    "Thrown"
-  ],
+  "attributes": [],
   "range": [
-    "Close",
-    "Far"
+    "Close"
   ],
-  "damage": "1d4",
+  "damage": "1d6",
   "source": "data/source/quickstart-set.json"
 }

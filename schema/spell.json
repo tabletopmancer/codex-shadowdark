@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Spell",
+  "type": "object",
+  "required": [
+    "name",
+    "tier",
+    "class",
+    "duration",
+    "range",
+    "description"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the spell."
+    },
+    "tier": {
+      "type": "number",
+      "description": "The spell tier (1–3 in the quickstart).",
+      "minimum": 1
+    },
+    "class": {
+      "type": "array",
+      "description": "Which classes can cast this spell.",
+      "items": {
+        "type": "string",
+        "enum": ["priest", "wizard"]
+      }
+    },
+    "duration": {
+      "type": "string",
+      "description": "How long the spell lasts (e.g. 'Instant', 'Focus', '5 rounds', '1 hour')."
+    },
+    "range": {
+      "$ref": "./distance.json",
+      "description": "The casting range of the spell."
+    },
+    "description": {
+      "type": "string",
+      "description": "The full spell description."
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

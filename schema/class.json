@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Class",
+  "type": "object",
+  "required": [
+    "name",
+    "hp_die"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The class name."
+    },
+    "hp_die": {
+      "$ref": "./dice.json",
+      "description": "The hit die used for HP."
+    },
+    "weapons": {
+      "type": "array",
+      "description": "Weapons this class can use.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "armor": {
+      "type": "array",
+      "description": "Armor types this class can wear.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "description": "Starting languages.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "spells": {
+      "type": "boolean",
+      "description": "Whether this class can cast spells.",
+      "default": false
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the class."
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

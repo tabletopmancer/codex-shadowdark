@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Halfling",
+  "ability": "Stealthy. Once per day, you can become invisible for 3 rounds.",
+  "languages": ["Common"],
+  "source": "data/source/quickstart-set.json"
+}

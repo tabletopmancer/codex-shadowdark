@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Human",
+  "ability": "Ambitious. You gain one additional talent roll at 1st level.",
+  "languages": ["Common"],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/class.json",
+  "name": "Priest",
+  "hp_die": "1d6",
+  "weapons": ["Club", "Crossbow", "Dagger", "Mace", "Longsword", "Staff", "Warhammer"],
+  "armor": ["All", "Shields"],
+  "languages": ["Common"],
+  "spells": true,
+  "description": "Priests are holy warriors who can call upon their deity for divine magic. They can cast spells and must make a spellcasting check to do so. On a failure, the spell does not take effect and is not lost. Priests use WIS as their spellcasting ability.",
+  "source": "data/source/quickstart-set.json"
+}

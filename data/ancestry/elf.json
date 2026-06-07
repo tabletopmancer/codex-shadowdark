@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Elf",
+  "ability": "Farsight. You get a +1 bonus to attack rolls with ranged weapons or a +1 bonus to spellcasting checks.",
+  "languages": ["Common", "Elvish", "Sylvan"],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Light",
+  "tier": 1,
+  "class": ["priest", "wizard"],
+  "duration": "1 hour",
+  "range": "Near",
+  "description": "You touch one object no larger than a human. It sheds light equivalent to a torch for the duration.",
+  "source": "data/source/quickstart-set.json"
+}
