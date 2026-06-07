@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Misty Step",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "Instant",
+  "range": "Close",
+  "description": "In a puff of smoke, you teleport a near distance to an area you can see.",
+  "source": "data/source/quickstart-set.json"
+}

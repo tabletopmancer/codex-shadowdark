@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Acid Arrow",
+  "tier": 2,
+  "class": ["wizard"],
+  "duration": "Focus",
+  "range": "Far",
+  "description": "You conjure a corrosive bolt that hits one foe, dealing 1d6 damage a round. The bolt remains in the target for as long as you focus.",
+  "source": "data/source/quickstart-set.json"
+}

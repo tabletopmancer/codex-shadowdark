@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Knight",
+  "description": "A warrior in shining plate mail and the surcoat of a knightly order.",
+  "ac": 17,
+  "hp": 14,
+  "attacks": [
+    { "name": "bastard sword", "count": 2, "bonus": 3, "damage": "1d8" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": 0, "con": 1, "int": 0, "wis": 0, "cha": 1 },
+  "alignment": "L",
+  "level": 3,
+  "special_abilities": [
+    { "name": "Oath", "description": "3/day, advantage on a roll made in service of the knight's order." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

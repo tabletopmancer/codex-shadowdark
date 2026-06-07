@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Gnome, Deep",
+  "description": "Gray-skinned, white-haired fey the size of halflings. They hunt for gems and rare cave flora.",
+  "ac": 14,
+  "hp": 14,
+  "attacks": [
+    { "name": "pick", "count": 1, "bonus": 3, "damage": "1d6" },
+    { "name": "dart", "count": 1, "range": "Near", "bonus": 2, "damage": "1d4" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 2, "dex": 1, "con": 1, "int": 1, "wis": 1, "cha": 1 },
+  "alignment": "L",
+  "level": 3,
+  "special_abilities": [
+    { "name": "Stone Meld", "description": "2/day, underground only. Turn invisible for 3 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

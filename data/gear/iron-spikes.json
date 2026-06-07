@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Iron Spikes (10)",
+  "description": "Strong spikes. Each has a hole for threading rope. Can be hammered in with weapons or other iron spikes.",
+  "cost": { "gp": 1 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

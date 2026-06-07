@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Spider, Swarm",
+  "description": "A scurrying carpet of spiders.",
+  "ac": 13,
+  "hp": 9,
+  "attacks": [
+    { "name": "bite", "count": 2, "bonus": 3, "damage": "1d4", "special": "poison" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": -1, "dex": 3, "con": 0, "int": -3, "wis": 1, "cha": -3 },
+  "alignment": "N",
+  "level": 2,
+  "special_abilities": [
+    { "name": "Poison", "description": "DC 12 CON or paralyzed 1d4 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

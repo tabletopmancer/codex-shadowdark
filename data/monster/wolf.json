@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Wolf",
+  "description": "A giant canine with a gray pelt, yellow eyes, and dripping jaws.",
+  "ac": 12,
+  "hp": 10,
+  "attacks": [
+    { "name": "bite", "count": 1, "bonus": 2, "damage": "1d6" }
+  ],
+  "movement": "Double Near",
+  "stats": { "str": 2, "dex": 2, "con": 1, "int": -2, "wis": 1, "cha": 0 },
+  "alignment": "N",
+  "level": 2,
+  "special_abilities": [
+    { "name": "Pack Hunter", "description": "Deals +1 damage while an ally is close." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

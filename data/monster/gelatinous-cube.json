@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Gelatinous Cube",
+  "description": "A translucent cube of slime that silently mows through tunnels.",
+  "ac": 11,
+  "hp": 24,
+  "attacks": [
+    { "name": "touch", "count": 1, "bonus": 4, "damage": "1d8", "special": "toxin + engulf" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": 1, "con": 2, "int": -4, "wis": 1, "cha": -4 },
+  "alignment": "N",
+  "level": 5,
+  "special_abilities": [
+    { "name": "Engulf", "description": "DC 12 STR or trapped inside cube. Touch attack auto-hits engulfed targets each round. DC 12 STR on turn to escape. Fail checks if paralyzed." },
+    { "name": "Rubbery", "description": "Half damage from stabbing weapons." },
+    { "name": "Toxin", "description": "DC 15 CON or paralyzed 1d4 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

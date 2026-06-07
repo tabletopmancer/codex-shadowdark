@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Bandit",
+  "description": "Hard-bitten rogue in tattered leathers and a hooded cloak.",
+  "ac": 13,
+  "hp": 4,
+  "attacks": [
+    { "name": "club", "count": 1, "bonus": 1, "damage": "1d4" },
+    { "name": "shortbow", "count": 1, "range": "Far", "bonus": 0, "damage": "1d4" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 1, "dex": 0, "con": 0, "int": -1, "wis": 0, "cha": -1 },
+  "alignment": "C",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Ambush", "description": "Deal an extra die of damage when undetected." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Darkmantle",
+  "description": "A floating, black octopus with rows of red eyes and a webbed skirt of tentacles.",
+  "ac": 13,
+  "hp": 4,
+  "attacks": [
+    { "name": "bite", "count": 1, "bonus": 3, "damage": "1d4" }
+  ],
+  "movement": "Near (fly)",
+  "stats": { "str": -2, "dex": 3, "con": 0, "int": -3, "wis": 0, "cha": -3 },
+  "alignment": "N",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Darkness", "description": "Extinguish all light sources within near." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

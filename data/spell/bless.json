@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/spell.json",
+  "name": "Bless",
+  "tier": 2,
+  "class": ["priest"],
+  "duration": "Instant",
+  "range": "Close",
+  "description": "One creature you touch gains a luck token.",
+  "source": "data/source/quickstart-set.json"
+}

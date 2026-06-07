@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Bear, Brown",
+  "description": "A hulking, swaying brute with claws as long as a finger.",
+  "ac": 13,
+  "hp": 25,
+  "attacks": [
+    { "name": "claw", "count": 2, "bonus": 4, "damage": "1d8" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 4, "dex": 1, "con": 3, "int": -2, "wis": 1, "cha": -2 },
+  "alignment": "N",
+  "level": 5,
+  "special_abilities": [
+    { "name": "Crush", "description": "Deals an extra die of damage if it hits the same target with both claws." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

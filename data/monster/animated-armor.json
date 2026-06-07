@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Animated Armor",
+  "description": "An old suit of armor magically animated by a vengeful spirit.",
+  "ac": 15,
+  "hp": 11,
+  "attacks": [
+    { "name": "longsword", "count": 1, "bonus": 3, "damage": "1d8" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": -1, "con": 2, "int": -1, "wis": 1, "cha": 0 },
+  "alignment": "C",
+  "level": 2,
+  "special_abilities": [
+    { "name": "Statue", "description": "When standing still, looks exactly like a suit of armor." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

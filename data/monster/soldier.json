@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Soldier",
+  "description": "An armed footsoldier trained in the ways of battlefield combat.",
+  "ac": 15,
+  "hp": 10,
+  "attacks": [
+    { "name": "longsword", "count": 1, "bonus": 2, "damage": "1d8" },
+    { "name": "crossbow", "count": 1, "range": "Far", "bonus": 1, "damage": "1d6" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 1, "dex": 0, "con": 1, "int": 0, "wis": 0, "cha": 0 },
+  "alignment": "L",
+  "level": 2,
+  "source": "data/source/quickstart-set.json"
+}

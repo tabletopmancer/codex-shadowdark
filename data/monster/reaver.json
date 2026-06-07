@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Reaver",
+  "description": "A knight in blackened armor riddled with cruel barbs.",
+  "ac": 17,
+  "hp": 28,
+  "attacks": [
+    { "name": "bastard sword", "count": 3, "bonus": 4, "damage": "1d8" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 3, "dex": 0, "con": 1, "int": 0, "wis": 0, "cha": 2 },
+  "alignment": "C",
+  "level": 6,
+  "special_abilities": [
+    { "name": "Bloodlust", "description": "+2 damage with melee weapons (included in damage)." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

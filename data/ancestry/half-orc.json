@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Half-Orc",
+  "ability": "Mighty. You have a +1 bonus to attack and damage rolls with melee weapons.",
+  "languages": ["Common", "Orcish"],
+  "source": "data/source/quickstart-set.json"
+}

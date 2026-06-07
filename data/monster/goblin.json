@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Goblin",
+  "description": "A short, hairless humanoid with green skin and pointy ears.",
+  "ac": 11,
+  "hp": 5,
+  "attacks": [
+    { "name": "club", "count": 1, "bonus": 0, "damage": "1d4" },
+    { "name": "shortbow", "count": 1, "range": "Far", "bonus": 1, "damage": "1d4" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 0, "dex": 1, "con": 1, "int": -1, "wis": -1, "cha": -2 },
+  "alignment": "C",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Keen Senses", "description": "Can't be surprised." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

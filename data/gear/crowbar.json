@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Crowbar",
+  "description": "Grants advantage on checks to pry open stuck objects.",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

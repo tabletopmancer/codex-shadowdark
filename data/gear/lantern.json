@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Lantern",
+  "description": "Casts light up to a double near distance. Requires oil. Has a shutter to hide the light.",
+  "cost": { "gp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

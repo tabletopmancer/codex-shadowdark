@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Cave Brute",
+  "description": "A hulking, insectoid beast with long mandibles, four eyes, and thick arms covered in bristles.",
+  "ac": 14,
+  "hp": 28,
+  "attacks": [
+    { "name": "claw", "count": 2, "bonus": 5, "damage": "1d8" },
+    { "name": "mandible", "count": 1, "bonus": 5, "damage": "1d10" }
+  ],
+  "movement": "Near (burrow)",
+  "stats": { "str": 4, "dex": 1, "con": 1, "int": -3, "wis": 1, "cha": -3 },
+  "alignment": "N",
+  "level": 6,
+  "special_abilities": [
+    { "name": "Bewilder", "description": "Creatures within near that see the cave brute's eyes must make DC 12 CHA at the start of their turn or be dazed and lose their action." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

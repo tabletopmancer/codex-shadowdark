@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/ancestry.json",
+  "name": "Goblin",
+  "ability": "Keen Senses. You can't be surprised.",
+  "languages": ["Common", "Goblin"],
+  "source": "data/source/quickstart-set.json"
+}

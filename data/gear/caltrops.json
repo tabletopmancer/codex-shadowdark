@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/item.json",
+  "name": "Caltrops (one bag)",
+  "description": "Tiny, triangle-shaped iron spikes. Living creatures who step on caltrops take 1 damage and can only move at half speed for 10 rounds.",
+  "cost": { "sp": 5 },
+  "slots": 1,
+  "source": "data/source/quickstart-set.json"
+}

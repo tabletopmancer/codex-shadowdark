@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Orc",
+  "description": "A tusked, tall humanoid with gray skin and pointed ears.",
+  "ac": 15,
+  "hp": 4,
+  "attacks": [
+    { "name": "greataxe", "count": 1, "bonus": 2, "damage": "1d8" }
+  ],
+  "movement": "Near",
+  "stats": { "str": 2, "dex": 0, "con": 0, "int": -1, "wis": 0, "cha": -1 },
+  "alignment": "C",
+  "level": 1,
+  "special_abilities": [
+    { "name": "Rage", "description": "1/day, immune to morale checks and deals +1d4 damage for 3 rounds." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}

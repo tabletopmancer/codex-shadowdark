@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/monster.json",
+  "name": "Snake, Giant",
+  "description": "An enormous, mottled serpent that can swallow a cow whole.",
+  "ac": 12,
+  "hp": 23,
+  "attacks": [
+    { "name": "bite", "count": 2, "bonus": 4, "damage": "1d6" },
+    { "name": "constrict", "count": 1, "range": "Near", "bonus": 4, "damage": "1d6", "special": "immobilize" }
+  ],
+  "movement": "Near (climb)",
+  "stats": { "str": 3, "dex": 2, "con": 1, "int": -2, "wis": 0, "cha": -2 },
+  "alignment": "N",
+  "level": 5,
+  "special_abilities": [
+    { "name": "Constrict", "description": "Contested STR to hold target immobile for one round." }
+  ],
+  "source": "data/source/quickstart-set.json"
+}
