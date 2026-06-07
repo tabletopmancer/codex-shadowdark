@@ -12,16 +12,6 @@
 
 > Shadowdark RPG is fast, familiar, intuitive, and deadly. It's built for sword-and-sorcery adventures where fell monsters slither in darkness and ancient gems glint upon forgotten thrones, waiting to be discovered. In Shadowdark RPG, real time comes into play.
 
-## Contents
-
-| Category | Path |
-|----------|------|
-| Ancestries | `data/ancestry/` |
-| Armor | `data/armor/` |
-| Classes | `data/class/` |
-| Spells | `data/spell/` |
-| Weapons | `data/weapon/` |
-
 ## Source
 
 Data sourced from the **Shadowdark RPG: Quickstart Set**.
